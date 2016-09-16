@@ -1,0 +1,122 @@
+.intro-tables{
+  margin-top: 600px;
+  padding-top: 30px!important;
+}
+
+.col-sm-4{
+  padding-top: 10px;
+}
+
+.header-player-stats {
+  text-align: center;
+}
+
+#players-profile {
+  padding-top: 20px;
+  /*background-color: white;*/
+  margin: 0 auto;
+/*  width: 900px;*/
+  height: 1000px;
+  overflow: scroll;
+}
+
+.container {
+  background-color: #378E5B;
+  opacity: 0.8;
+}
+
+#submit-button {
+  background: transparent;
+  text-decoration: none;
+  border-style: none;
+  width: 100%;
+  text-align: left;
+  margin-left: -7px;
+  color: white;
+}
+#submit-button:hover{
+  background-color: white;
+  opacity: 0.4;
+}
+
+#start-game {
+  top: 40%;
+  left: 40%;
+  position: absolute;
+}
+
+#start-game button {
+  font-color: white;
+  border: none;
+  background: '#ffffff';
+
+  -moz-box-shadow: 2px 2px 15px -2px #2e5e21!important;
+  -webkit-box-shadow: 2px 2px 15px -2px #2e5e21!important;
+  box-shadow: 2px 2px 15px -2px #2e5e21!important;
+  background-color:#44c767!important;
+  -moz-border-radius:5px!important;
+  -webkit-border-radius:5px!important;
+  border-radius:5px!important;
+  border:1px solid #18ab29!important;
+  display:inline-block!important;
+  cursor:pointer!important;
+  color:#ffffff!important;
+  font-family:Arial!important;
+  cursor:pointer!important;
+  color:#ffffff!important;
+  font-family:Arial!important;
+  font-size:24px!important;
+  padding:19px 31px!important;
+  text-decoration:none!important;
+  text-shadow:0px 1px 5px #122e0d!important;
+  opacity: 0.9!important;
+}
+
+#start-game > button:hover {
+  background-color:#5cbf2a;
+}
+#start-game > button:active {
+  position:relative;
+  top:1px;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.1em;
+
+}
+
+h5 {
+  font-size: 2.4em;
+  color: #A6E66B!important;
+  /*text-align: center;*/
+}
+
+body {
+  overflow: hidden;
+  color: #E0E0E0;
+}
+
+body > img {
+    opacity: 0.80;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+#canvas {
+  height: 100%;
+  width: 100%;
+  bottom: 0px;
+  z-index: 500;
+}
+
+.col-md-4 {
+  width: 24%!important;
+}
+
+

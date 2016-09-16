@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title>GamePp</title>
@@ -8,7 +8,40 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <body> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+  <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+  <link href="/css/simple-sidebar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/application.css">
+  <link rel="stylesheet" type="text/css" href="/css/cardio.css">
+  <link rel="stylesheet" type="text/css" href="/css/owl.css">
+  <link rel="stylesheet" type="text/css" href="/css/animate.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+
+
+  <title></title>
+</head>
   <body>
-    <%= yield %>
-  </body>
+  <%= render 'layouts/navbar' %>
+  <img src="../images/surface-planets.jpg" alt="background_space">
+    <!-- <div class='container'> -->
+      <%= yield %>
+<!--     </div> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/navbar.js"></script>
+  <script src="/js/application.js"></script>
+ </body>
 </html>

@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  root 'home#index'
-  
-  get 'home/index'
 
+  root 'home#index'
+
+  get 'sessions/new', to: 'sessions#new'
+
+  resources :sessions, path_names: { new: 'login' }
   resources :races
   resources :games
   resources :players

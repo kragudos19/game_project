@@ -1,0 +1,15 @@
+<% if players %>
+<% players.each do |player| %>
+<!-- <div class="container"> -->
+  <div class="col-sm-4">
+    <div class="intro-table intro-table-hover">
+      <h5 class="white heading hide-hover"><%= player.username %></h5>
+      <div class="bottom">
+        <h4 class="white heading small-heading no-margin regular">Challenge A Rematch</h4>
+        <a href="/" class="btn btn-white-fill expand">Start Game</a>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
+<% end %>
+<% end %>
