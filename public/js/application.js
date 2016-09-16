@@ -12,8 +12,8 @@ function loadCanvas(){
 function drawImage(image, x, y){
   destX = x;
   destY = y;
-  destWidth = 340;
-  destHeight = 400;
+  destWidth = 180;
+  destHeight = 200;
 
   ctx.drawImage(image, destX, destY, destWidth, destHeight);
 };
@@ -26,8 +26,8 @@ var Player = function(args) {
   this.speed = .3;
   this.image = new Image();
   this.image.src = '/images/alien.png';
-  this.width = 70;
-  this.height = 90;
+  this.width = 25;
+  this.height = 50;
   this.x = 80;
   this.y = 50;
 
