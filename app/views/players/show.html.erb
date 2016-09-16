@@ -1,0 +1,14 @@
+
+<!-- <h1> Welcome Back, <%= @player.username %>!</h1> -->
+  <section id="players-profile">
+    <div class="header-player-stats">
+      <h2> Players You Lost Against </h2>
+    </div>
+    <%= render  partial: 'players/player_list', locals: { players: @won_against } %>
+
+
+    <div class="header-player-stats">
+      <h2> Players You Won Against </h2>
+    </div>
+    <%= render  partial: 'players/player_list', locals: { players: @lost_against } %>
+  </section>
