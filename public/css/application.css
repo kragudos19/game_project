@@ -3,8 +3,12 @@
   padding-top: 30px!important;
 }
 
+.col-sm-4{
+  padding-top: 10px;
+}
+
 .header-player-stats {
-  margin-left: 400px;
+  text-align: center;
 }
 
 #players-profile {
@@ -82,12 +86,14 @@ h1 {
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3.1em;
 
 }
 
 h5 {
-  font-size: 2em
+  font-size: 2.4em;
+  color: #A6E66B!important;
+  /*text-align: center;*/
 }
 
 body {
