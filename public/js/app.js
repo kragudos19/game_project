@@ -1,13 +1,3 @@
-function loadCanvas(){
-  canvas = document.getElementById('canvas');
-  ctx = canvas.getContext("2d");
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-  ctx.fillStyle = '#414a4c';
-  ctx.fill();
-  ctx.strokeStyle = '#ffffff';
-  ctx.strokeRect(0, 0, canvas.width, canvas.height);
-};
 
 function drawImage(image, x, y){
   destX = x;
@@ -19,19 +9,7 @@ function drawImage(image, x, y){
 };
 // ========== PLAYER ============================
 
-var Player = function(args) {
-  this.username = args.username; //taken from database ajax call
-  this.currentPosition = 0;
 
-  this.speed = .3;
-  this.image = new Image();
-  this.image.src = '/images/alien.png';
-  this.width = 25;
-  this.height = 50;
-  this.x = 80;
-  this.y = 50;
-
-}//ends the Player object
 
 // =================== GAME =======================================
 var player;
@@ -72,12 +50,6 @@ $(function(){
   };
 
   image2.src = '/images/alien.png';
-
-// =================== GAMEPLAY FUNCTIONS====================================================================
-
-  // $('#start-game').on('click', function(event){
-
-  // });
 
 // ====== MOVE LEFT AND RIGHT =======
   document.addEventListener("keydown", function(){

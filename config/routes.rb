@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
 
-  get 'angular_test', to: "angular_test#index"
+
 
   get 'sessions/new', to: 'sessions#new'
 
